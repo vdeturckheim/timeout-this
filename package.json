@@ -1,0 +1,29 @@
+{
+  "name": "timeout-this",
+  "version": "0.0.1",
+  "description": "Timeout synchronous code in Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab -cL -t 100 -a code"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vdeturckheim/timeout-this.git"
+  },
+  "keywords": [
+    "timeout"
+  ],
+  "author": "vdeturckheim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vdeturckheim/timeout-this/issues"
+  },
+  "homepage": "https://github.com/vdeturckheim/timeout-this#readme",
+  "dependencies": {
+    "shimmer": "^1.2.0"
+  },
+  "devDependencies": {
+    "code": "^5.2.0",
+    "lab": "^15.5.0"
+  }
+}
